@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    function multiplesOf3and5(number) {
+        let somme = 0;
+        for (let i =0;i<number;i++)
+        {
+            if ((i%3 == 0)||(i%5 == 0))
+            {
+                somme+=i
+            }
+        }
+        
+        return somme;
+    }
+
+    console.log(multiplesOf3and5(10));
+
+    </script>
+</body>
+</html>
